@@ -1,0 +1,464 @@
+*
+{
+    margin:0;
+    font-family: 'Jost', sans-serif;
+}
+.Container-1
+{
+    position: relative;
+}
+.logo
+{
+   width:210px;
+   height:80px;   
+}
+.logo-img
+   {
+    background-color:#367C2B;    
+    padding-top:20px;
+    text-align: center;
+   }
+   .nav-bar
+   {
+     display: none;
+   }
+.Navigation
+  {
+      display: grid;
+      width:100%;
+      grid-template-columns:15% 55% 30%;   
+      grid-template-rows:150px;      
+  }
+ .Menu > a 
+    {
+        text-decoration:none;
+        padding:20px;
+        color:white;      
+    } 
+    .Menu 
+    {
+        padding-left:60px;
+        background-color:#367C2B;
+        padding-top:50px;
+        width: 100%;
+         }
+     
+   .btn-1 
+   {
+       color:white;
+       font-weight: bold;
+       font-size:20px;
+       background-color: black;
+       border: none;
+       text-align: center;     
+       width:160px;
+       height:60px;
+   }
+   .btn
+   {
+       padding-top:40px;
+       text-align:right;
+       margin-right: 40px;
+   }
+   .header-letter
+   {
+     
+      display: grid;
+      padding:30px;
+      width:70%;
+      background-color:#367C2B;
+   }
+  
+   .line
+      {
+        width:90px;
+        height:12px;   
+        margin-left:12%;  
+        margin-top:5%;
+        margin-bottom:8%;  
+        background-color:white; 
+      }
+      .header-text-1
+         {
+             width:50%;
+             margin-left:120px;
+         }
+      .t1
+         {
+           font-size:82px;
+           font-weight:bold;  
+           color:white;  
+           letter-spacing:6px;
+           margin-bottom:6%;            
+         }
+         .t2
+         {
+           font-size:18px;
+           color:white;
+           padding-bottom:3px;
+           margin-bottom:2%;
+           margin-right:35%;
+          }
+          .header-1-img
+          {
+              position: absolute;
+              bottom:0px;
+              right:0px;
+              width:54%;
+              height:73%;
+          }
+        /*****************************Header 2****************************************/  
+        .header-2
+        {
+             position:relative;
+        }
+        .header-2-image
+        {
+            position: absolute;
+            top: 0px;
+            left:150px;
+            width:36%;
+            height:810px;
+        }
+        .Container-2
+          {
+              background-color:#043927;
+              padding:90px;
+              align-items: right;
+              overflow: hidden;
+          }
+          .header-2-letter
+          {
+              width:50%;
+              margin-left:50%;
+          }
+       .haeder-2-t1
+       {
+           font-style: italic;
+           color:white;
+           line-height:1.6;
+           margin-right:160px;
+           font-size:18px;
+       } 
+       .haeder-2-t2
+       {
+           color:white;
+           font-size:18px;
+           font-weight: bold;
+           margin-top:40px;
+               } 
+      .haeder-2-t3
+               {
+                   color:greenyellow;
+                   font-size:18px;
+                   margin-top:10px;
+               } 
+ .header-2-letter-1
+     {
+         width:45%;
+         margin-left:55%;
+         margin-top:15%;
+         display: flex;
+         flex-wrap: wrap;
+         overflow: hidden;
+     }   
+ .header-2-t
+ {
+     font-size: 30px;
+     font-weight:bolder;
+     letter-spacing:3px;
+     margin-bottom:5%;
+     width:430px;
+     line-height:1.5;
+    
+ }                         
+ 
+ .haeder-2-t1-1
+   {
+       color: #317873;
+       font-size:20px;
+       line-height:1.6;
+       width:480px;
+       margin-bottom:3%;
+   }
+  .header-btn-2
+  {
+      background-color:#507D2A;
+      border: none;
+      color:white;
+      font-size:20px;
+      width:180px;
+      height:60px;
+  } 
+  .header-btn-2-1
+  {
+      margin-left:55%;
+      margin-top:20px;
+  }
+   /*****************************Header 3****************************************/  
+   .Header-3
+   {
+    position: relative;
+    overflow: hidden;
+   }
+   .header-3-img
+   {   
+    
+       position: absolute;
+       right: 0px;  
+       bottom:0px;   
+       width:45%;
+       height:95%;      
+   }
+ .container-3
+ {
+     width:36%;  
+     padding-top:60px;   
+     padding-left:10%;
+ }
+  .header-3-t1
+  {
+      font-size:30px;
+      font-weight:bolder;
+      letter-spacing:4px;
+      line-height:1.5;
+      padding-top:30%;
+      margin-right:40%;
+      margin-bottom:8%;
+  } 
+  .header-3-t2
+  {
+      font-size:20px;
+      color: #317873;
+      width: 485px;
+      line-height:1.4;
+      margin-bottom:8%;
+  }
+
+  .header-3-btn
+  {
+      color: white;
+      font-weight: bold;
+      background-color:#043927;
+      outline: none;
+      border: none;
+      font-size:20px;
+      width: 275px;
+      height:65px;
+     margin-bottom:30%;
+  }
+   /*****************************Header 4****************************************/  
+   .header-4
+   {
+       padding:30px;
+       background-color:#ecf1ec;
+   }
+ 
+   .header-4-t
+   {
+    font-size:20px;
+    color:green;   
+    text-align:center;
+    margin-top:80px;
+   }
+
+   .icons
+   {
+       width:50%;
+       color:green;      
+       }
+   .icon-1,.icon-2,.icon-3,.icon-4,.icon-5,.icon-6,.icon-7,.icon-8,.icon-9,.icon-10,.icon-11,.icon-12
+   {
+       text-align: center;
+       padding:20px;
+       padding-bottom:40px;
+       border: 1px solid lightblue;
+       border-top:none;      
+      
+     
+   }
+   .icon-7,.icon-8,.icon-9,.icon-10,.icon-11,.icon-12
+   {
+    border-bottom:none;
+   }
+   .icon-1,.icon-7
+   {
+       border-left: #ecf1ec;
+   }
+   .icon-12,.icon-6
+   {
+     border-right: #ecf1ec;
+   }
+  .icon-text
+  {
+      font-size:16px;
+      margin-top:20px;
+      font-weight: bold;
+     
+  } 
+  .Container-4
+  {
+     display: grid;
+     align-items:center;
+     grid-template-columns: repeat(6 ,15%);
+     grid-template-rows:50% 50%;        
+     padding-inline:100px;
+     padding-block:100px;
+     color:green;   
+    
+    }
+ .h-4-btn
+ {
+    color: white;
+    background-color:#507D2A;
+    border: none;
+    font-size:20px;
+    width:160px;
+    height:50px;
+    margin-bottom: 60px;
+ }  
+ .header-btn
+ {
+     text-align: center;
+ }
+  /*****************************Header 5****************************************/  
+ .container-5
+ {
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap:30px;
+   padding-block:15%;
+ }
+  .box1,.box2,.box3
+ {
+     width:26%;    
+    
+ }
+ .box-1-img
+ {
+     width:100%;
+ }
+ .header-5-1
+ {
+   padding-block:20px;
+   font-size:26px;
+   font-weight: bold;
+   letter-spacing:2px;
+ }
+ .header-5-t2
+ {
+     color: #317873;
+     font-size:20px;
+     letter-spacing:1px;
+     padding-right:40px;
+     padding-block:30px;
+ }
+ 
+ .a {
+     color:#507D2A;
+     font-size:20px;
+     font-weight: bold;
+ }
+
+  /*****************************Header 6****************************************/  
+  .header-6
+  {
+      position: relative;
+  }
+  .container-6
+  {
+      margin-top:5%;
+      padding:80px;
+      width:65%;
+      background-color:#367C2B;
+  }
+  .header-6-t1
+  {
+      font-size:45px;
+      letter-spacing:6px;
+      color:white;
+      font-weight: bold;
+      padding:20px;
+  }
+  .header-6-t2
+  {
+      font-size:20px;
+      color:white;    
+      padding: 15px;
+      width:75%;
+  }
+  .header-6-btn
+  {
+    color: white;
+    background-color:#043927;
+    font-size:18px;
+    font-weight: bold;
+    width:160px;
+    height:65px;
+    border: none;
+  }
+  .header-btn-1
+  {
+      margin-left:40px;
+  }
+.header-6-text
+{
+    width:90%;
+    margin-left:120px;
+}
+.header-6-text-2
+    {
+        display: inline-flex;
+    }
+.header-6-image
+{
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    width:60%;
+    height:85vh;
+    z-index:-1;
+}    
+ /*****************************Header 7****************************************/  
+  .Header-7
+  {
+      position: relative;
+  }
+.Navigation-fnl
+{
+    display: grid;
+    width:100%;
+    grid-template-columns:35% 65%;   
+    grid-template-rows:120px; 
+    background-color:#043927;
+    color:043927;
+    overflow: hidden;
+   
+}
+.logo-img-fnl
+{
+    color:#043927;
+    text-align: center;
+    margin-top:20px;
+}
+.Menu-fnl
+{
+    padding-left:60px;
+    background-color:#043927;
+    padding-top:50px;
+    width: 100%;
+     }
+     .Menu-fnl > a 
+    {
+        text-decoration:none;
+        padding:16px;
+        color:white;  
+        font-weight:200px;    
+    } 
+    .header-7-text
+    {
+        font-size:20px;
+        color:white;
+        display:none;
+    }
